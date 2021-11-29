@@ -12,7 +12,7 @@
       <div class="row">
         <form id="pizza-form" class="well">
           <div class="form-group col-md-6">
-            <label for="pizza-crust">Choose your crust</label>
+            <label for="pizza-crust">Choose your preferd crust</label>
             <select class="form-control" name="pizza-crust" id="pizza-crust">
               <option value="1">Hand-Tossed</option>
               <option value="0">Thin Crust</option>
@@ -29,8 +29,9 @@
           <div id="topping-style">
             <div class="form-group">
               <div id="toppinglabel-style">
+                  <p>OUR PRICES</p>
+                <p>Small (Ksh 500)    Medium (Ksh 1000)    Large (Ksh 1500)    Extra large (2000)</p>
                 <label for="pizza-toppings">Choose your toppings:</label><br>
-                <p>Small (Ksh 500)    Medium (Ksh 1000)    Large (Ksh 1500)</p>
                 <hr>
               </div>
               <div class="container">
@@ -85,15 +86,15 @@
             <p>Toppings:</p>
             <hr>
             <h2>Total:</h2>
-            <button type="reset" value="Refresh Page" onClick="window.location.reload()" class="btn btn-warning">Order Again</button>
-          </div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSDBz2nhvkPKwyFSUToRLsei22913LM6EIdA&usqp=CAU">
+        </div>
           <div class="col-md-3" id="borderRight-style">
             <p>$&nbsp;<span id="crust-price"></span></p>
             <p>$&nbsp;<span id="size-price"></span></p>
             <p>$&nbsp;<span id="toppings-price"></span></p>
             <hr>
             <h2>$&nbsp;<span id="total"></span></h2>
+            <button type="reset" value="Refresh Page" onClick="window.location.reload()" class="btn btn-warning">Order Again</button>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSDBz2nhvkPKwyFSUToRLsei22913LM6EIdA&usqp=CAU">
           </div>
           <div class="col-md-6">
           </div>
